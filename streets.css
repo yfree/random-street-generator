@@ -1,0 +1,146 @@
+div#game-board{ 
+    min-width:900px; 
+    display:table;  
+} 
+
+div#game-legend{ 
+    margin:10px; 
+    padding:2px;
+    border: 1px solid black;
+    display:table;  
+float:right;
+} 
+
+div#street-corners-legend{
+    margin:10px;
+    padding:2px;
+    border: 1px solid black; 
+float:right;
+}
+
+div.game-legend-row{
+    font-size:1.5em;
+    display:table-row; 
+    width:auto; 
+}
+ 
+
+div#game-board div.game-row { 
+    
+    display:table-row; 
+    width:auto; 
+} 
+
+ 
+div#game-board div.game-row div.game-cell { 
+
+    width:22px; 
+    height: 22px; 
+ 
+    float:left;/*fix for  buggy browsers*/  
+    display:table-column; 
+} 
+
+.purple {
+ background-color:#cc00ff;
+}
+
+
+
+
+
+
+
+
+
+
+.street	 {
+  position: relative;
+  display: inline-block;
+}
+
+.street .streettext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.street:hover .streettext {
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+.corner {
+  position: relative;
+  display: inline-block;
+  background-color:black !important;
+}
+
+.corner .cornertext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.corner:hover .cornertext {
+  visibility: visible;
+}
+
+.blue {
+ background-color:#0000ff;
+}
+
+.green {
+ background-color:#00ff00;
+}
+
+.red {
+ background-color:#ff0000;
+}           
+
+.orange {
+ background-color:#ff9900;
+}
+
+.yellow {
+ background-color:#ffff00;
+}
+
+.pink {
+ background-color:#ff66b3;
+}
+
+.brown {
+ background-color:#D47622;
+}
+
+.gray{
+ background-color:#b8b8ad;
+}
+
+.dark-green{
+ background-color:#05a13e;
+}
